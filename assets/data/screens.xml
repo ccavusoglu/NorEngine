@@ -1,0 +1,22 @@
+<screens>
+    <SplashScreen>
+        <sprite name="Loading" x="315" y="1060" texture="playButton"/>
+        <text name="LoadingText" x="315" y="1060" w="450" h="200" text="Loading..." color="AAAAAAFF"/>
+    </SplashScreen>
+
+    <MenuScreen>
+        <sprite name="PlayButton" x="315" y="1060" texture="playButton" components="INPUT_C"/>
+        <text name="PlayButtonText" x="315" y="1060" w="450" h="200" text="PLAY NOW!" color="FF0000FF"/>
+        <animation name="ANAN" x="300" y="300" textures="enemyship1,enemyship2,enemyship3" interval="500"/>
+    </MenuScreen>
+
+    <GameScreen>
+        <sprite name="Background" texture="background" x="0" y="1920" w="1080" h="1920" zOrder="BACKGROUND"/>
+        <sprite name="Player" texture="mothership" x="420" y="1080" components="BODY,INPUT_C"
+                bodyOffset="40,-40,-80,-80" inputOffset="20,-20,-40,-40" tag="PLAYER"/>
+        <text name="Score" x="0" y="150" w="1080" h="100" text="0" color="FFFFFFFF"/>
+        <sprite name="HP_Frame" texture="hp_frame" x="80" y="140" w="240"/>
+        <sprite name="HP_Bar" texture="hp_bar" x="87" y="140" w="230" anchorX="0.0"/>
+        <sprite name="PlayerControl" x="0" y="1920" w="1080" h="1920" components="INPUT_C"/>
+    </GameScreen>
+</screens>

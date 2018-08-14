@@ -1,0 +1,17 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="background.png" x="0" y="0" width="1080" height="1920"/>
+	<SubTexture name="enemybaseship1.png" x="1082" y="202" width="360" height="359"/>
+	<SubTexture name="enemybaseship2.png" x="1082" y="805" width="240" height="361"/>
+	<SubTexture name="enemybaseship3.png" x="1082" y="563" width="360" height="240"/>
+	<SubTexture name="enemyship1.png" x="610" y="1922" width="48" height="120"/>
+	<SubTexture name="enemyship2.png" x="486" y="1922" width="60" height="120"/>
+	<SubTexture name="enemyship3.png" x="548" y="1922" width="60" height="96"/>
+	<SubTexture name="hp_bar.png" x="0" y="1984" width="24" height="60"/>
+	<SubTexture name="hp_frame.png" x="0" y="1922" width="240" height="60"/>
+	<SubTexture name="mothership.png" x="1082" y="1168" width="240" height="241"/>
+	<SubTexture name="pauseoff.png" x="364" y="1922" width="120" height="120"/>
+	<SubTexture name="pauseon.png" x="242" y="1922" width="120" height="120"/>
+	<SubTexture name="playButton.png" x="1082" y="0" width="450" height="200"/>
+	<SubTexture name="projectile_enemy.png" x="26" y="2010" width="6" height="24"/>
+	<SubTexture name="projectile_mothership.png" x="26" y="1984" width="12" height="24"/>
+</TextureAtlas>

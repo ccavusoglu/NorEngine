@@ -1,0 +1,8 @@
+.idea
+cmake-build-debug
+*.html
+*.iml
+NorEngine/*
+demos/*
+libs/glm/*
+cmake-modules/*
